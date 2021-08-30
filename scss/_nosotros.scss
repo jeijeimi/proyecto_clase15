@@ -1,0 +1,21 @@
+/* Nosotros */
+
+.nosotros__nosotrosTitulo{
+    background-color: $verdeclaro;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    height: $altoTitulos+10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosotros__textoNosotros p {
+    text-align: left;
+    padding: $espaciointerno/2 10%;
+}
+
+.nosotros__videoNosotros {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}

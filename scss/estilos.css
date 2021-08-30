@@ -1,0 +1,209 @@
+/* Variables */
+/*Estructura*/
+html {
+  margin-top: 100px;
+}
+
+/* Nav */
+header nav a .logoNav {
+  width: 80px;
+}
+
+/* Footer */
+footer ul li {
+  list-style: none;
+}
+
+/*Secciones*/
+/* HOME */
+main section #presentacion h1 {
+  text-align: center;
+}
+
+main section #presentacion p {
+  margin: 30px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+main section .carousel-control-prev-icon, main section .carousel-control-next-icon {
+  background-color: #0c0c0c;
+}
+
+/* Nosotros */
+.nosotros {
+  text-align: center;
+}
+
+.nosotros__nosotrosTitulo {
+  color: #ede6de;
+  background-color: #709b8b;
+  padding: 20px;
+}
+
+.nosotros__textoNosotros p {
+  text-align: left;
+  padding: 10px 10%;
+}
+
+.nosotros__videoNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+/* Producto */
+.introProductos {
+  text-align: center;
+  background-color: #cae3d9;
+  padding: 20px;
+}
+
+.introProductos h1 {
+  font-size: 40px;
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 100;
+  color: #709b8b;
+}
+
+.introProductos p {
+  color: #709b8b;
+}
+
+.productos img {
+  width: 200px;
+}
+
+.productos {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.produ {
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  margin: 30px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25);
+}
+
+.medidas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 50px;
+}
+
+.medidas i {
+  font-size: 50px;
+  color: #405c6e;
+  padding: 15px;
+  border-radius: 50px;
+  border: solid #405c6e 5px;
+}
+
+.tabla {
+  padding: 50px;
+}
+
+.tabla th {
+  color: white;
+  background-color: #405c6e;
+}
+
+.tabla td {
+  background-color: #fcfcfc;
+  color: #405c6e;
+}
+
+/* Shop */
+#tituloShop {
+  text-align: center;
+  background-color: #eed5b6;
+  padding: 20px;
+}
+
+#tituloShop h1 {
+  font-size: 40px;
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 100;
+  color: #fcfcfc;
+}
+
+#shopH1 {
+  text-align: center;
+  font-size: 22px;
+  color: #405c6e;
+  margin: 30px 0px 50px 0px;
+}
+
+.shop {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eed5b6;
+  margin: 20px;
+}
+
+.shopLista {
+  padding: 30px 30px 20px 30px;
+  margin: 20px 0px 60px 0px;
+  width: 500px;
+  border: solid #fcfcfc 3px;
+}
+
+.shop a {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #405c6e;
+}
+
+.shop p, li {
+  color: #405c6e;
+  list-style-type: circle;
+  padding: 10px;
+}
+
+/* Contacto */
+/*# sourceMappingURL=estilos.css.map */

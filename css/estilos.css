@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* Estética */
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+/*Estructura*/
+html {
+  margin-top: 100px; }
+
+/* Nav */
+header nav a .logoNav {
+  width: 80px; }
+
+header nav ul li {
+  list-style: none; }
+
+/* Footer */
+footer ul li {
+  list-style: none; }
+
+/*Secciones*/
+/* HOME */
+main section #presentacion h1 {
+  text-align: center; }
+
+main section #presentacion p {
+  margin: 30px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px; }
+
+main section .carousel-control-prev-icon, main section .carousel-control-next-icon {
+  background-color: #0c0c0c; }
+
+/* Nosotros */
+.nosotros__nosotrosTitulo {
+  background-color: #cae3d9;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.nosotros__textoNosotros p {
+  text-align: left;
+  padding: 10px 10%; }
+
+.nosotros__videoNosotros {
+  display: flex;
+  justify-content: center;
+  margin: 50px; }
+
+/* Producto */
+main .introProductos {
+  text-align: center;
+  background-color: #cae3d9;
+  padding: 20px;
+  height: 130px; }
+  main .introProductos h1 {
+    font-family: 'Oleo Script Swash Caps', cursive; }
+
+main .fotoProductos .productos {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  main .fotoProductos .productos .produ {
+    text-align: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 30px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25); }
+  main .fotoProductos .productos img {
+    width: 200px; }
+
+main .medidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 50px; }
+  main .medidas i {
+    font-size: 50px;
+    color: #405c6e;
+    padding: 15px;
+    border-radius: 50px;
+    border: solid #405c6e 5px; }
+  main .medidas .tabla {
+    padding: 50px; }
+    main .medidas .tabla th {
+      color: #fcfcfc;
+      background-color: #405c6e; }
+    main .medidas .tabla td {
+      background-color: #fcfcfc;
+      color: #405c6e; }
+
+/* Shop */
+.tituloShop {
+  padding: 2px; }
+
+.tituloShop_h1 {
+  text-align: center;
+  background-color: #eed5b6;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: 100; }
+
+.tituloShop_h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #405c6e;
+  margin: 30px 0px 50px 0px; }
+
+.shop {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eed5b6;
+  margin: 20px; }
+
+.shop__Lista {
+  padding: 30px 30px 20px 30px;
+  margin: 20px 0px 60px 0px;
+  width: 500px;
+  border: solid #405c6e 3px; }
+
+.shop a {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #405c6e; }
+
+.shop p, li {
+  color: #405c6e;
+  list-style-type: circle;
+  padding: 10px; }
+
+/* Contacto */
+.grid-contacto {
+  display: grid;
+  grid-template-areas: "uno uno" "dos tres"; }
+  .grid-contacto #contactoH1 {
+    text-align: center;
+    background-color: #405c6e;
+    padding: 20px;
+    grid-area: uno; }
+    .grid-contacto #contactoH1 h1 {
+      font-size: 40px;
+      font-family: 'Oleo Script Swash Caps', cursive;
+      font-weight: 100;
+      color: #fcfcfc; }
+  .grid-contacto .ubicacion {
+    grid-area: dos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; }
+    .grid-contacto .ubicacion h3 {
+      margin: 20px; }
+  .grid-contacto .iconos {
+    grid-area: tres;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .grid-contacto .iconos .gridTel, .grid-contacto .iconos .gridMail, .grid-contacto .iconos .gridDirec {
+      display: flex; }
+      .grid-contacto .iconos .gridTel i, .grid-contacto .iconos .gridMail i, .grid-contacto .iconos .gridDirec i {
+        padding: 10px; }
+      .grid-contacto .iconos .gridTel p, .grid-contacto .iconos .gridMail p, .grid-contacto .iconos .gridDirec p {
+        margin: 10px 20px 10px 2px; }
+
+/* Formulario */
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .formulario form fieldset {
+    background-color: #405c6e;
+    padding: 15px;
+    margin: 50px 50px 20px 50px;
+    border-radius: 5px;
+    width: 600px; }
+    .formulario form fieldset legend {
+      padding: 10px;
+      font-size: 20px;
+      background-color: #fff;
+      text-transform: uppercase;
+      border-style: double; }
+    .formulario form fieldset p, .formulario form fieldset select, .formulario form fieldset label {
+      color: #fcfcfc; }
+    .formulario form fieldset #checkMail {
+      color: #fcfcfc; }
+    .formulario form fieldset .botonEnviar {
+      margin: 20px; }
